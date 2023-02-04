@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
@@ -116,3 +116,32 @@ export default {
   }
 }
 </script>
+ -->
+ <template>
+  <div>
+    <h1>Navigation here !</h1>
+    <v-main>
+      <v-container>
+        <Nuxt />
+      </v-container>
+    </v-main>
+  </div>
+ </template>
+
+ <script>
+ export default {
+  name: 'DefaultLayout',
+  data() {
+    return {
+
+    }
+  },
+  computed: {},
+  methods: {
+
+  }
+ }
+</script>
+
+<style lang="scss">
+</style>
